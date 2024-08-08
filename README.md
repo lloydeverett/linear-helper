@@ -29,5 +29,7 @@ npm install
 ./create-issue.py Psych "Do the needful" Lloyd "Todo" NA 1.0 "Development" "Review"
 ```
 
+Team, assignee, etc. will be looked up based on substring match, so you don't have to be exact.
+
 The program will read a line from stdin where you can write an issue description. Just hit enter if you don't want one.
 
