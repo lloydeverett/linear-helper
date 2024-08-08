@@ -18,6 +18,7 @@ npm install
 ./get-teams > data-teams
 ./get-projects > data-projects
 ./get-users > data-users
+./get-labels > data-labels
 ./team Squirrels # any substring of your team name; should give you your teamId
 ./get-states `./team Squirrels` > data-states # grab workflow states for your team
 ```
