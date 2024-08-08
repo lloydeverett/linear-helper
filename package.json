@@ -1,0 +1,15 @@
+{
+  "name": "linear-helper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@linear/sdk": "^27.0.0"
+  }
+}

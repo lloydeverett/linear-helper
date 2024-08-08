@@ -1,0 +1,2 @@
+cat data-states | grep "$1" | sed "s/^.* | \(.*\)$/'\1'/g"
+

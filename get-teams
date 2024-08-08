@@ -1,0 +1,3 @@
+#!/bin/bash
+node . "teams({first: 250, after: after})" "r.nodes.map(n => n.name + ' | ' + n.id)"
+

@@ -1,0 +1,2 @@
+cat data-projects | grep "$1" | sed "s/^.* | \(.*\)$/'\1'/g"
+
